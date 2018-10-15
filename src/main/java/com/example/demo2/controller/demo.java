@@ -12,4 +12,8 @@ public class demo {
     public String sayHi(){
         return "hi man";
     }
+    @RequestMapping("git")
+    public String demo1(){
+        return  "hi git";
+    }
 }
